@@ -1,0 +1,111 @@
+*{
+    /* width: 80%;
+    margin: auto; */
+    text-transform: capitalize;
+}
+/* header */
+.menu{
+    display: inline;
+    
+    z-index: 1;
+}
+.menu ul{
+    position: relative;
+    display: block;
+    background-color: rgb(21, 97, 97);
+    padding: 10px;
+    text-align: right;
+    transition: .2s;
+    width: 100%;
+    z-index: 1;
+    
+}
+.menu ul li{
+    display: inline-block;
+   text-align: center;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border-left: 1px solid;
+    margin-left: -4px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    background: rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
+    
+   
+}
+.menu ul::before{
+    content: " ";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(39, 187, 255);
+    transition: 1s;
+    z-index:-1;
+}
+.menu ul:hover::before{
+    width:100%;
+}
+/* banner */
+.card{}
+.card .intro{}
+.card .intro h1{}
+.card .intro p{}
+.card img{
+    display: inline-flex;
+    width: 40%;
+    height: auto;
+    border: 5px solid blue;
+    border-top-left-radius: 50px;
+    border-right: none;
+}
+/* aboutme */
+.aboutme{}
+.aboutme h1{}
+.aboutme p{}
+/* skill */
+.skill{}
+.skill .html{}
+.skill .css{}
+.skill .wordpress{}
+.skill .bootstrap{}
+.skill .react{}
+.skill .phyton{}
+.skill .js{}
+/* services */
+.services{}
+.services h1{}
+.services p{}
+/* .proof */
+.proof{}
+.proof h1{}
+.proof .client{}
+.proof .client h1{}
+.proof .client p{}
+/* packeg */
+.packeg{}
+.packeg h1{}
+.packeg .pack{}
+.packeg .pack h1{}
+.packeg .pack p{}
+/* experience */
+.experience{}
+.experience h2{}
+/* contact */
+.contact{}
+.contact p{}
+.contact .submitdetails{}
+.contact .btn{}
+.contact .btn .btn1{}
+/* .footer */
+.footer{}
+.footer span{}
+.footer span i{}
+.footer div{}
